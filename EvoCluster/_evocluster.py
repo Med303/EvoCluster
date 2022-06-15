@@ -119,7 +119,7 @@ class EvoCluster:
             datasets_directory = "datasets/"  # the directory where the dataset is stored
         else:
             # the directory where the dataset is stored
-            datasets_directory = "datasets/" #unsupervised/
+            datasets_directory = "datasets/unsupervised/"
         if home_data is not None:
             datasets_directory = home_data +"/"
 
