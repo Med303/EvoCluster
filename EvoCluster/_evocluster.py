@@ -146,6 +146,8 @@ class EvoCluster:
 
             dataset_filename = self.dataset_list[h] + '.csv'
             # Read the dataset file and generate the points list and true values
+            print(datasets_directory + dataset_filename) #jalal
+            exit #jalal
             rawData = open(os.path.join(os.path.abspath(os.path.dirname(
                 __file__)), datasets_directory + dataset_filename), 'rt')
             data = numpy.loadtxt(rawData, delimiter=",")
