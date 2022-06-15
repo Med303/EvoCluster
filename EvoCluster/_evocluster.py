@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu May 20 17:06:19 2021
 
-@author: Dang Trung Anh
-"""
 
 from sklearn import preprocessing
 from pathlib import Path
