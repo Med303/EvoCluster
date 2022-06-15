@@ -63,7 +63,7 @@ class EvoCluster:
         self.params = params
         self.export_flags = export_flags
         self.auto_cluster = auto_cluster
-        # self.n_clusters = n_clusters
+        self.n_clusters = n_clusters
         self.labels_exist = labels_exist
         self.metric = metric
 
